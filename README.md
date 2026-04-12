@@ -93,3 +93,33 @@ RTDETER.ipynb
 | ------- | --------- | ---------- |
 | RT-DETR | 0.9718  | 0.9415  |
 | YOLOv26 | 0.985   | 0.9571 |
+
+## Analysis
+
+* YOLOv26 consistently outperforms RT-DETR in both normal and low-light conditions
+* Both models experience performance degradation under low-light conditions
+* RT-DETR shows slightly larger degradation, indicating higher sensitivity to lighting changes
+
+However, note that:
+
+* The performance gap is relatively small (~1–2%)
+* Results may depend heavily on dataset size and augmentation strategy
+
+
+## Limitations
+
+* Synthetic low-light may not fully represent real-world conditions
+* Dataset size may impact generalization
+* Direct comparison is constrained by architectural differences
+
+
+## Future Work
+
+* Use real low-light datasets
+* Explore advanced augmentation techniques
+* Optimize RT-DETR for limited resources
+
+
+## License
+
+This project is for research and academic purposes.
