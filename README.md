@@ -1,4 +1,4 @@
-# Low-Light Object Detection Benchmark: YOLOv26 vs RT-DETR
+# Synthetic Darkened Object Detection Benchmark: YOLOv26 vs RT-DETR
 Overview
 
 This repository contains experiments comparing two object detection paradigms:
